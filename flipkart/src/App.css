@@ -1,0 +1,185 @@
+
+
+.headerSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color:yellow; 
+  color: wheat;
+  border-bottom: 2px solid #e0d5d5;
+}
+.tittel img{
+  display: flex;
+  height: 50px;
+  width: 160px;
+}
+
+.center ul {
+  list-style: none; 
+  display: flex;
+  gap: 20px;
+}
+
+.center li {
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+}
+
+.Search input[type='text'] {
+  padding: 8px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px solid black;
+  outline: none;
+
+}
+
+.right {
+  display: flex;
+  gap: 20px;
+}
+
+.signin, .cart {
+  font-size: 15px;
+  color: black;
+}
+
+.signin {
+  color: #0f6ece;
+}
+
+
+.cart {
+  color: #1657c0;
+}
+
+.cart:hover {
+  background-color: #f0f0f0;
+}
+
+
+.bannerBox {
+  max-width: 100%;       
+  max-height: 100%;      
+}
+.bannerBox img {
+  width: 100%;             
+  height: auto;          
+  border-radius: 8px;    
+}
+.menImages{
+  display: flex;
+  gap: 10px;
+}
+.menImages img{
+
+  width: 200px;
+  height: 200px;
+}
+.tittel{
+  background-color: blue;
+}
+.womenImages{
+  display: flex;
+  gap: 10px;
+}
+.womenImages img{
+  width: 200px;
+  height: 200px;
+}
+.footerImage{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+.footerImage img {
+  width: 100%;             
+  height: 200px;          
+  border-radius: 8px;    
+}
+.electronics img{
+  width: 100%;
+  height: 250px;
+  border-radius: 8px;
+
+}
+.Electronics{
+  display: flex;
+  width: 100%;
+
+}
+.mobile img{
+  width: 100px;
+  height: 100px;
+  gap: 10px;
+}
+.laptop img{
+  width: 200px;
+  height: 250px;
+  gap: 10px;
+}
+.fridge img{
+  width: 150px;
+  height: 200px;
+  gap: 10px;
+}
+.tv img{
+  width: 210px;
+  height: 200px;
+  gap: 10px; 
+}
+.washingMachine img{
+  width: 210px;
+  height: 200px;
+  gap: 10px;
+}
+.soundBar img{
+  width: 230px;
+  height: 200px;
+  gap: 10px;
+}
+.grocery {
+  display: flex;
+  width: 100%;
+}
+.Grocery img{
+  width: 100%;
+  height: 250px;
+}
+.Groceryscollecection{
+  display: flex;
+  width: 100%;
+}
+.oil img{
+  width: 200px;
+  height: 200px;
+  gap: 15px;
+}
+.horlicks img{
+  width: 200px;
+  height: 200px;
+  gap: 15px;
+}
+.soap img{
+  width: 200px;
+  height: 200px;
+  gap: 15px;
+}
+.friuts img{
+  width: 200px;
+  height: 200px;
+  gap: 10px;
+}
+.milk img{
+  height: 200px;
+  width: 200px;
+  gap: 15px;
+}
+.surfexel img{
+  gap: 15px;
+  height: 200px;
+  width: 200px;
+}
