@@ -1,6 +1,13 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
+  const navigate = useNavigate();
+
+  // Function to handle navigation
+  const handleNavigation = (path) => {
+    navigate(path);
+  };
   return (
     <div className='headerSection'>
         <div className="left">
@@ -20,7 +27,8 @@ const Header = () => {
             <input type='text' placeholder='Search..'/>
         </div>
         <div className="right">
-            <div className='signin'>Signin / Login</div>
+            <div id='signup' className='signin' onClick={() => handleNavigation('/signup')}>Sign up</div>
+            <div id='login' className='signin' onClick={() => handleNavigation('/login')}>Login</div>
             <div className='cart'>Cart</div>
 
         </div>
